@@ -9,17 +9,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 <body>
-
-    <div class="four"><h1>ЧайTea</h1></div>
-
-
-
+  <div class="four"><h1>ЧайTea</h1></div>
     <div class="container">
         <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
          
           <div class="col">
             <div class="p-3 border bg-light"> 
               <div class="d-flex justify-content-center"><img class="image" src="./assets/1.png" alt=""></div></div>
+              <div class="container py-3 text-center">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">
+                  Информация
+                </button>
+              </div>
           </div>
           <div class="col">
             <div class="p-3 border bg-light">
@@ -52,11 +53,57 @@
         </div>
       </div>  
       
+      <div class="container py-3 text-center">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">
+          Інфо
+        </button>
+      </div>
+    
+      <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Лінгвістичний тип інтелекту 
+            </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="clearfix">
+                    <img src="./assets/1.1.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+                  
+                    <p>
+                        Сильні сторони: мова, правопис
+                    </p>
+                  
+                    <p>
+                        Характеристики: усна і письмова комунікація, обговорення і дискусії, придумування і написання історій, словестние гри, вивчення Іноземна мов, запам'ятовування цитат і прислів'їв, любов до читання, використання жартів, коломбуров, рим, грамотна мова, багатий словниковий запас 
+                    </p>
+                  
+                    <p>
+                        Професії: журналісти, письменники, вчителі, лінгвісти, політики, юристи, громадські діячі, оратори 
+                    </p>
+                  </div>
+              
+              <p>Діти, які мають вербально-лінгвістичним інтелектом, добре справляються зі словами, причому як усно, так і письмово, люблять читати, писати, говорити і слухати. У них добре розвинена словесна пам'ять: запам'ятовують імена, місця, дати, назви, цитати.
+
+                Такі хлопці краще навчаються через прослуховування лекцій, аудіювання, читання, записування матеріалу і його обговорення. Для них якісний процес навчання - це виступи з усними презентаціями, написання творів, віршів і есе, дебати з різних тем і питань, вивчення лексики, граматики і синтаксису іноземних мов.
+           
+                Діти, які мають вербально-лінгвістичним інтелектом, можуть створювати поезію і прозу різних видів, наприклад: вірші, оповідання, а також публічні виступи, дебати, дискусії, діалоги і інше.
+           
+              Також варто пам'ятати, що розглянутий нами вигляд інтелекту включає в себе характеристики і інших інтелектів: успіх в дебатах залежить від уміння логічно мислити, вдале публічний виступ залежить від розвитку міжособистісних навичок. </p>
+            </div>
+            <div class="modal-footer">
+              
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Дякую</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
-
-
-
+      <style>
+        body { background: url(./assets/bg.png); }
+      </style>
 
 
 
